@@ -1,0 +1,10 @@
+1.
+cd sailboat
+git clone https://bitbucket.ubcsailbot.org/projects/TOOLS/repos/bash-settings
+
+2.
+cd sailboat
+git add wind_angles.inc
+git add TestWindAngles.h
+git commit -m "Tuned wind angles and added unit tests."
+git push
